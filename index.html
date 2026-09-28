@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marea | Café de Especialidad</title>
+  <meta name="description" content="Café de origen seleccionado, tueste semanal y pastelería de masa madre en un espacio pensado para pausar.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/slots.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#" class="brand-mark">
+        <span class="brand-symbol">●</span>
+        <span class="brand-text">MAREA</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="menu-principal" class="site-nav">
+        <ul>
+          <li><a href="#filosofia">Concepto</a></li>
+          <li><a href="#carta">Destacados</a></li>
+          <li><a href="#visita">Horarios</a></li>
+          <li><a href="#contacto" class="btn btn-nav">Escribinos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="hero-eyebrow">Tueste de autor &bull; Orígenes puros</span>
+          <h1>El café como pausa indispensable.</h1>
+          <p class="hero-lead">Granos seleccionados de fincas de altura, calibrados a diario y servidos con respeto por cada proceso.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary">Reservar mesa o evento</a>
+            <a href="#carta" class="btn btn-secondary">Ver barra</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="slot" data-slot="hero-taza" data-desc="Extracción de café de especialidad en taza de cerámica artesanal sobre madera clara"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="filosofia" class="section-statement">
+      <div class="container statement-wrap">
+        <p class="statement-badge">Nuestra regla de tres</p>
+        <div class="statement-grid">
+          <article class="statement-card">
+            <h3>01. Origen trazable</h3>
+            <p>Trabajamos directo con productores de Colombia, Etiopía y Guatemala. Conocemos altitud, varietal y beneficio de cada lote.</p>
+          </article>
+          <article class="statement-card">
+            <h3>02. Perfil de tueste</h3>
+            <p>Tueste medio y ligero para destacar notas florales, frutas frescas y la acidez viva propia del grano.</p>
+          </article>
+          <article class="statement-card">
+            <h3>03. Manos expertas</h3>
+            <p>Agua filtrada por mineralización controlada, molienda al instante y precisión milimétrica en cada extracción.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="carta" class="section-menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">En barra</span>
+          <h2>Selección de temporada</h2>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>Flat White 6oz</h4>
+              <p>Doble ristretto de Etiopía Yirgacheffe con leche texturizada sedosa.</p>
+            </div>
+            <span class="menu-price">$3.400</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>Filtrado Batch Brew / V60</h4>
+              <p>Método de goteo manual. Taza limpia, notas a jazmín y durazno maduro.</p>
+            </div>
+            <span class="menu-price">$3.800</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>Cold Brew 18 Horas</h4>
+              <p>Maceración en frío prolongada con granos de Colombia Huila. Dulce y refrescante.</p>
+            </div>
+            <span class="menu-price">$3.600</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>Tostón de Masa Madre & Palta</h4>
+              <p>Pan de 48hs de fermentación natural, huevo pastoril pochado y oliva virgen.</p>
+            </div>
+            <span class="menu-price">$5.900</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visita" class="section-info">
+      <div class="container info-grid">
+        <div class="info-card">
+          <h3>Encontranos</h3>
+          <address>
+            Pasaje Los Sauces 418<br>
+            Barrio Parque &bull; Ciudad
+          </address>
+          <p class="schedule">
+            <strong>Mar a Vie:</strong> 08:00 – 19:30<br>
+            <strong>Sáb y Dom:</strong> 09:00 – 20:00<br>
+            <span class="closed-day">Lunes cerrado por tueste</span>
+          </p>
+        </div>
+        <div class="info-image">
+          <div class="slot" data-slot="espacio-barra" data-desc="Barra de madera clara y máquina espresso de palanca en atmósfera luminosa"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section-contact">
+      <div class="container contact-wrap">
+        <div class="contact-heading">
+          <span class="subtitle">Hablemos</span>
+          <h2>¿Reservas, granos al por mayor o una consulta?</h2>
+          <p>Dejanos tu mensaje y te respondemos antes de que termine el día.</p>
+        </div>
+
+        <form class="contact-form" data-zk="contacto">
+          <div class="form-group">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="Opcional">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo" required>
+              <option value="" disabled selected>Seleccioná un motivo</option>
+              <option value="reserva">Reserva de mesa</option>
+              <option value="granos">Venta de café en grano</option>
+              <option value="catering">Eventos & Pop-ups</option>
+              <option value="otro">Otra consulta</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Contanos cómo podemos ayudarte..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Enviar mensaje</button>
+          <p class="zk-mensaje"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-symbol">●</span> MAREA &bull; Café de Especialidad
+      </div>
+      <p class="footer-rights">&copy; 2025 Marea Café. Tueste consciente, vida lenta.</p>
+    </div>
+  </footer>
+
+  <script src="assets/slots.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
